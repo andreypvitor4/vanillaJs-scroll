@@ -1,4 +1,4 @@
-## [`Click here to see the result`](https://portfolio-av.vercel.app/projetos/vanillaScroll)
+## [`Click here to see the test`](https://portfolio-av.vercel.app/projetos/vanillaScroll)
 
 ## Mobile horizontal scroll script
 
