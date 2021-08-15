@@ -6,23 +6,27 @@ Description: A function to transform your div in a swipeable row.
 
 To get started you will need two divs in your html:
 ex: 
-<div class="list">
-  <div class="row">
+<pre>
+< div class="list">
+  < div class="row">
     Here you can insert whatever you want
-  </div>
-</div>
+  < /div>
+< /div>
+</pre>
 
 And some css style:
 
-.list {
+<pre>
+.list { 
   width: 100%;
   overflow: hidden;
+} 
+.row { 
+  display: flex; 
+  justify-content: center; 
+  width: <the width you choose>px; 
 }
-.row {
-  display: flex;
-  justify-content: center;
-  width: <the width you choose>px;
-}
+</pre>
 
 Then you import the function from the index.js and call it.
 
